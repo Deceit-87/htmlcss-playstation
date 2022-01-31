@@ -151,3 +151,18 @@ ul, ol{
     background:#161c3b ;
     color: white;
 }
+
+
+
+
+            /* FOOTER  */
+
+   #main-footer{
+       background:#00439c;
+       min-height: 560px;
+   }   
+   
+   
+   #main-footer ul li{
+       white-space: nowrap;
+   }
