@@ -1,9 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-boxù;
+    box-sizing: border-box;
 }
-
+* sup {
+    top: -0.8em;
+}
 img {
     max-width: 100%;
 }
@@ -20,16 +22,15 @@ ul, ol{
 
                 /* HEADER  */
                 
-#main-header{
+                
+
+.sony-banner{
+   
     background-color: black;
-    /* min-height: 45px; */
-
 }
-
-.logo{
-    max-width: 70px;
+.sony-banner img {
+    height: 15px;
 }
-
 
 /* JUMBO  */
 
@@ -122,3 +123,24 @@ ul, ol{
 .new-game .game-card img {
     border-radius: 26px;
 }
+
+
+
+                    /* PLAYSTATION plus */
+
+#ps-plus{
+    background:#bebcbb;
+}
+.section-logo{
+    max-width: 325px;
+    margin-bottom: 20px;
+
+
+
+}
+
+.cta-plus{
+    background: #d9dadc;
+    border: 1px solid #d9dadc;
+}
+
