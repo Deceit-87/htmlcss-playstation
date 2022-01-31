@@ -117,3 +117,8 @@ ul, ol{
 .new-game {
     min-height: 716px;
 }
+
+
+.new-game .game-card img {
+    border-radius: 26px;
+}
