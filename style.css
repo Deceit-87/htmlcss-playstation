@@ -117,9 +117,7 @@ ul, ol{
                     /* NEW-GAME  */
 
 
-.new-game {
-    min-height: 716px;
-}
+
 
 
 .new-game .game-card img {
@@ -146,3 +144,10 @@ ul, ol{
     border: 1px solid #d9dadc;
 }
 
+
+            /* PS-NOW */
+
+#ps-now {
+    background:#161c3b ;
+    color: white;
+}
