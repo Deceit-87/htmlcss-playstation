@@ -7,9 +7,7 @@
 img {
     max-width: 100%;
 }
-body{
-    height: 200vh;
-}
+
 ul, ol{
     list-style: none;
     padding: 0;
@@ -82,3 +80,28 @@ ul, ol{
         outline: 4px solid white;
         outline-offset: -8px;
      }
+
+
+
+        /* PLAYSTATION 5 +    Gadjet  */
+
+        .slider-thumb{
+            opacity: 0.5;
+        }
+
+        .slider-thumb.active{
+            border-bottom: 1px solid var(--bs-blue);
+            opacity: 1;
+        }
+        .slider-thumb:hover{
+            opacity: 1;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+
+
+        .slider-thumb figure {
+            max-width: 120px;
+            margin: 0 auto;
+            margin-bottom: 15px;
+        }
