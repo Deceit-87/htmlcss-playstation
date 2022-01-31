@@ -14,7 +14,9 @@ ul, ol{
     margin: 0 ;
 }
 
-
+.fs-7 {
+    font-size: 0.8rem;
+}
 
                 /* HEADER  */
                 
@@ -105,3 +107,13 @@ ul, ol{
             margin: 0 auto;
             margin-bottom: 15px;
         }
+
+
+
+
+                    /* NEW-GAME  */
+
+
+.new-game {
+    min-height: 716px;
+}
