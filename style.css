@@ -4,10 +4,17 @@
     box-sizing: border-boxù;
 }
 
+img {
+    max-width: 100%;
+}
 body{
     height: 200vh;
 }
-
+ul, ol{
+    list-style: none;
+    padding: 0;
+    margin: 0 ;
+}
 
 
 
@@ -23,3 +30,55 @@ body{
     max-width: 70px;
 }
 
+
+/* JUMBO  */
+
+.game-returnal {
+    background-image: url("./img/jumbo-bg.png");
+    
+    
+}
+
+.game-banner {
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.game-it-takes-two{
+    background-image: url("./img/it-takes-two-hero-banner-desktop.jpg");
+}
+.game-banner .row {
+    min-height: 590px;
+}
+ 
+.game-banner__logo{
+    max-width: 215px;
+}
+
+.game-banner__title {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+
+
+
+    /* THUMB  */
+
+
+    .game-thumb {
+        border-radius: 15px;
+        overflow: hidden;
+        border:4px solid transparent; 
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .game-thumb.active ,.game-thumb:hover{
+        border:4px solid var(--bs-blue);    
+        box-shadow:inset 0 0 2px white;
+        outline: 4px solid white;
+        outline-offset: -8px;
+     }
