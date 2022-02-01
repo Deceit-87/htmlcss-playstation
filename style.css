@@ -72,6 +72,7 @@ ul, ol{
 
 
     .game-thumb {
+        position: relative;
         border-radius: 15px;
         overflow: hidden;
         border:4px solid transparent; 
@@ -84,8 +85,11 @@ ul, ol{
         box-shadow:inset 0 0 2px white;
         outline: 4px solid white;
         outline-offset: -8px;
+        
      }
-
+     .game-thumb:hover{
+        bottom: 15px;
+     }
 
 
         /* PLAYSTATION 5 +    Gadjet  */
@@ -122,9 +126,16 @@ ul, ol{
 
 .new-game .game-card img {
     border-radius: 26px;
+    
 }
 
-
+.new-game .game-card:hover,.promotion-card:hover, .social-card:hover a img{
+    scale: 1.02;
+    transition: all 0.2s ease-in-out;
+}
+.promotion-card img{
+    border-radius: 10px;
+}
 
                     /* PLAYSTATION plus */
 
@@ -211,21 +222,20 @@ color: currentColor;
 
 
   .link-container{
+      margin-top: 20px;
+      padding-top: 10px;
       border-top: 1px solid gray;
   }
 
 
   .navbar__icon-wrapper img {
-      height: 90px;
-  }
+width: 90px;  }
 
-  .navbar__card {
-      padding:10px 5px;
-  }
+  
 
   .link-container ul{
 display: contents;  }
-
+  
 .link-container ul li a:before{
     display: block;
 content: "";
@@ -234,7 +244,6 @@ aspect-ratio: 1;
 background-color: #0070d1;
 border-radius: 999999px;
 position: absolute;
-top: 166px;
 top: 50%;
 left: 0%;
 transform: translate(0 ,-50%);
@@ -246,4 +255,18 @@ transform: translate(0 ,-50%);
 .link-container ul li a:hover{
     color:#0070d1; 
     background-color: transparent;
+}
+.navbar__card {
+    aspect-ratio: 1;
+    margin-bottom: 10px;
+    border: 2px solid transparent;
+    padding:15px;
+    
+}
+
+.navbar__card:hover {
+    border-radius: 5px;
+box-shadow: whitesmoke;
+/* border: 2px solid rgba(0, 0, 0, 0.123); */
+box-shadow: 1px 1px 5px #adadad;
 }
