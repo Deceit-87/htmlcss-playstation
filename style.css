@@ -170,7 +170,6 @@ ul, ol{
 
    #main-footer{
        background:#00439c;
-       min-height: 560px;
    }   
    #main-footer a{
 color: currentColor;
@@ -209,7 +208,9 @@ color: currentColor;
 .navbar li{
     position: initial;
 }
-
+.navbar{
+    z-index: 999999;
+}
 .navbar .dropdown .dropdown-menu  {
     top: 60px;
     left: 0;
