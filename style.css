@@ -188,3 +188,24 @@ color: currentColor;
     width: 40%;
     margin-left: -20px;
    }
+
+
+
+
+
+
+            /* NAVBAR FULLWIDHT  */
+.navbar li{
+    position: initial;
+}
+
+.navbar .dropdown-menu {
+    top: 60px;
+    left: 0;
+    right: 0;
+    border: none;
+    background-color: #f8f9fa;
+  }
+
+
+
