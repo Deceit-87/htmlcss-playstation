@@ -132,7 +132,7 @@ ul, ol{
     background:#bebcbb;
 }
 .section-logo{
-    max-width: 325px;
+   
     margin-bottom: 20px;
 
 
@@ -161,8 +161,30 @@ ul, ol{
        background:#00439c;
        min-height: 560px;
    }   
-   
+   #main-footer a{
+color: currentColor;
+   }
    
    #main-footer ul li{
-       white-space: nowrap;
+      white-space: pre-wrap;
+   }
+
+   #main-footer .section-logo img{
+       min-width: 100%;
+       height: 75px;
+   }
+   #main-footer .section-logo-sie img{
+       height: 50px;
+   }
+
+   #main-footer ul li a, .copy-text{
+       text-decoration: none;
+       font-size: 12px;
+   }
+
+
+   .container-copy {
+    padding-top: 50px;
+    width: 40%;
+    margin-left: -20px;
    }
